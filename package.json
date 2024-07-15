@@ -1,0 +1,9 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "start": "npm run backend",
+    "backend": "cd api && tsc && node dist/server.js"
+  }
+}

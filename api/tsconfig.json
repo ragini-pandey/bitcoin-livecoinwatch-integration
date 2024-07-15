@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "types": [],
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ],
+      "@constants": [
+        "src/config/strings/constants.ts"
+      ],
+      "@utils": [
+        "src/utils/*"
+      ],
+      "@config": [
+        "src/config/*"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "@models/*": [
+        "src/models/*"
+      ]
+    },
+    "lib": [
+      "es2020"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "src/environments/**/*.json"
+, "index.js"  ]
+}
