@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "start": "npm run backend",
-    "backend": "cd api && tsc && node dist/server.js"
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd api && tsc && node dist/server.js",
+    "frontend": "cd web && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
