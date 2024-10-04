@@ -1,6 +1,6 @@
-# FOMO Factory Assignment
+# Bitcoin LiveCoinWatch Integration
 
-Welcome to the FOMO Factory Assignment Application! This project serves as a template for a full-stack web application, integrating both a backend and frontend, running concurrently to streamline your development process.
+Welcome to the Bitcoin LiveCoinWatch Integration Application! This project serves as a template for a full-stack web application, integrating both a backend and frontend
 
 ## Table of Contents
 - [Features](#features)
@@ -37,8 +37,8 @@ LIVE_COIN_WATCH_API_KEY=<YOUR_COINWATCH_API_KEY>
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ragini-pandey/fomo-factory-assignment.git
-   cd fomo-factory-assignment
+   git clone https://github.com/ragini-pandey/bitcoin-livecoinwatch-integration.git
+   cd bitcoin-livecoinwatch-integration
 
 2. **Running the Application**:
  ```bash
